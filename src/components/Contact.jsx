@@ -9,6 +9,10 @@ import { slideIn } from "../utils/motion";
 
 const Contact = () => {
   const formRef = useRef();
+  const nameInputRef = useRef();
+  const emailInputRef = useRef();
+  const messageInputRef = useRef();
+
   const [form, setForm] = useState({
     name: "",
     email: "",
@@ -18,18 +22,13 @@ const Contact = () => {
   const [loading, setLoading] = useState(false);
 
   const handleChange = (e) => {
-    const { target } = e;
-    const { name, value } = target;
+    const { name, value } = e.target;
 
     setForm({
       ...form,
       [name]: value,
     });
   };
-
-  // template_rw5geqj
-  // service_6rvgqek
-  // 8ely0fe8YQg-XK5p4
 
   const handleSubmit = (e) => {
     e.preventDefault();
@@ -43,7 +42,7 @@ const Contact = () => {
           from_name: form.name,
           to_name: "Jagadeesh Koyya",
           from_email: form.email,
-          to_email: "ramazankachkynov2@gmail.com", 
+          to_email: "ramazankachkynov2@gmail.com",
           message: form.message,
         },
         import.meta.env.VITE_APP_EMAILJS_PUBLIC_KEY
@@ -94,6 +93,7 @@ const Contact = () => {
               value={form.name}
               onChange={handleChange}
               placeholder="What's your name"
+              ref={nameInputRef}
               className="bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium"
             />
           </label>
@@ -105,6 +105,7 @@ const Contact = () => {
               value={form.email}
               onChange={handleChange}
               placeholder="What's your web address?"
+              ref={emailInputRef}
               className="bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium"
             />
           </label>
@@ -116,6 +117,7 @@ const Contact = () => {
               value={form.message}
               onChange={handleChange}
               placeholder="What you want to say?"
+              ref={messageInputRef}
               className="bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium"
             />
           </label>
@@ -140,4 +142,3 @@ const Contact = () => {
 };
 
 export default SectionWrapper(Contact, "contact");
-
