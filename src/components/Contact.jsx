@@ -43,7 +43,7 @@ const Contact = () => {
           from_name: form.name,
           to_name: "Jagadeesh Koyya",
           from_email: form.email,
-          to_email: "jagadeesh10th@gmail.com",
+          to_email: "ramazankachkynov2@gmail.com", 
           message: form.message,
         },
         import.meta.env.VITE_APP_EMAILJS_PUBLIC_KEY
@@ -93,7 +93,7 @@ const Contact = () => {
               name="name"
               value={form.name}
               onChange={handleChange}
-              placeholder="What's your good name?"
+              placeholder="What's your name"
               className="bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium"
             />
           </label>
@@ -140,3 +140,4 @@ const Contact = () => {
 };
 
 export default SectionWrapper(Contact, "contact");
+
