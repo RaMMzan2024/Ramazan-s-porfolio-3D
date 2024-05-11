@@ -122,14 +122,14 @@ const experiences = [
   {
     title: "Frontend Developer",
     company_name: "Omnifood",
-    icon: omnifoodLogo,
+    icon: omnifoodLogo, 
     iconBg: "#FDF2EA",
     date: "Feb 2023 - March 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Разработка и сопровождение веб-приложений с использованием React.js и других сопутствующих технологий.",
+      "Сотрудничество с кросс-функциональными командами, включая дизайнеров, менеджеров по продуктам и других разработчиков, для создания высококачественных продуктов.",
+      "Внедрение адаптивного дизайна и обеспечение кроссбраузерной совместимости.",
+      "Участвуйте в обзорах кода и предоставляйте конструктивную обратную связь другим разработчикам.",
     ],
   },
   {
@@ -139,10 +139,10 @@ const experiences = [
     iconBg: "#fff",
     date: "Jan 2023 - Feb 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Разработка и сопровождение веб-приложений с использованием React.js и других сопутствующих технологий.",
+      "Сотрудничество с кросс-функциональными командами, включающими дизайнеров, менеджеров по продуктам и других разработчиков, для создания высококачественных продуктов.",
+      "Внедрение адаптивного дизайна и обеспечение кроссбраузерной совместимости.",
+      "Участвуйте в обзорах кода и предоставляйте конструктивную обратную связь другим разработчикам.",
     ],
   },
   {
@@ -152,10 +152,10 @@ const experiences = [
     iconBg: "#fff",
     date: "Jan 2023 - Jan 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Разработка и сопровождение веб-приложений с использованием React.js и других сопутствующих технологий.",
+      "Сотрудничество с кросс-функциональными командами, включающими дизайнеров, менеджеров по продуктам и других разработчиков, для создания высококачественных продуктов.",
+      "Внедрение адаптивного дизайна и обеспечение кроссбраузерной совместимости.",
+      "Участвуйте в обзорах кода и предоставляйте конструктивную обратную связь другим разработчикам.",
     ],
   },
 ];

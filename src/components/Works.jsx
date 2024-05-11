@@ -87,8 +87,8 @@ const Works = () => {
   return (
     <>
       <motion.div variants={textVariant()}>
-        <p className={`${styles.sectionSubText} `}>My work</p>
-        <h2 className={`${styles.sectionHeadText}`}>Projects.</h2>
+        <p className={`${styles.sectionSubText} `}>Моя работа</p>
+        <h2 className={`${styles.sectionHeadText}`}>Проекты</h2>
       </motion.div>
 
       <div className="w-full flex">
@@ -96,11 +96,11 @@ const Works = () => {
           variants={fadeIn("", "", 0.1, 1)}
           className="mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]"
         >
-          I have worked on a variety of projects that showcase my skills and
-          experience. Each project is briefly described with links to code
-          repositories and live demos. These projects demonstrate my ability to
-          solve complex problems, work with different technologies, and manage
-          projects effectively.
+          Я работал над множеством проектов, которые демонстрируют мои
+           навыки и опыт. Каждый проект кратко описан со ссылками на 
+           хранилища кода и демонстрационные версии. Эти проекты демонстрируют
+            мою способность решать сложные задачи, работать
+           с различными технологиями и эффективно управлять проектами.
         </motion.p>
       </div>
 
