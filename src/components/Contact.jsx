@@ -25,7 +25,7 @@ const Contact = () => {
     const { name, value } = e.target;
 
     setForm({
-      ...form,
+      ...form,    
       [name]: value,
     });
   };
